@@ -64,7 +64,7 @@ img.avatar{
 }
 .links{
   display: flex;
-  margin: 10px 3px 20px 3px;
+  margin: 10px 3px 10px 3px;
 }
 .link-item{
   display: flex;
@@ -72,7 +72,10 @@ img.avatar{
   flex: 1;
 }
 .link-item svg {
-  margin-right: 6px;
+  margin-right: 3px;
+}
+.link-item li {
+  margin-right: 4px;
 }
 /******
 Experience****/
