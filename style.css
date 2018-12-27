@@ -11,7 +11,11 @@ body{
   color: #323232;
 }
 img{
+<<<<<<< HEAD
   border-radius:70%; 
+=======
+  border-radius:50%;
+>>>>>>> 53c9178bd83e602644206a74965dbcad6bf211fb
 }
 .icon{
   fill: currentColor;
