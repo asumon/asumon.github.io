@@ -1,0 +1,150 @@
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #f2f2f2;
+  color: #323232;
+}
+img{
+  max-width: 100%;
+}
+.icon{
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+
+}
+a{
+  color: #323232;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.container{
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid lightgray;
+}
+select:last-child{
+  border-bottom: none;
+}
+.section-title{
+  font-size: bold;
+  font-size: 18px;
+}
+/***********
+.min-info******/
+img.avatar{
+  width: 138px;
+}
+.my-name{
+  font-size: 48px;
+  line-height: 1;
+}
+.my-title{
+  font-size: 24px;
+  font-weight: 300;
+  color: #236FB2;
+}
+.links{
+  display: flex;
+  margin: 10px 3px 20px 3px;
+}
+.link-item{
+  display: flex;
+  align-items: space-between;
+  flex: 1;
+}
+.link-item svg {
+  margin-right: 6px;
+}
+/******
+Experience****/
+.job{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.job:last-child{
+  border-bottom: none;
+}
+.job-title-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.job-company{
+  font-weight: bold;
+  line-height: 1.2;
+}
+/*****
+.skills***/
+.skills-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+/*********
+.interest******/
+.interests-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.interests-container img{
+  height: 35px;
+  opacity: 0.7spx;
+}
+/**********
+references/we need to check more on it****/
+.reference-container{
+  font-size: 18px;
+  display: flex;
+  
+}
+.reference-container img{
+  height: 35px;
+  opacity: 0.7spx;
+}
+.reference details{
+  margin-bottom: 20px;
+}
+@media only screen and (max-width : 768px) {
+  section{
+    grid-template-columns: 1fr;
+  }
+  .links, .job-title-container {
+    flex-direction: column;
+  }
+  .skills-container{
+    grid-template-columns: 1fr 1fr;
+  }
+  .interests-container{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .interests-container img{
+    margin-right: 32px;
+    margin-bottom: 16px;
+  }
+
+}
