@@ -5,11 +5,12 @@ html{
   box-sizing: inherit;
 }
 body{
-  background-color: #6B4B5F;
+  background-color:#f2f2f2 ;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
-  background: #f2f2f2;
+  background:#6B4B5F;
   color: #323232;
+  
   
   
 }
